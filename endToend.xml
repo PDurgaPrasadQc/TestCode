@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Gmail">
+  <test name="FileUpload" >
+    <classes>
+       <class name="TestCases.GmailLoginpage">
+       <methods>
+       <include name="LoginOperations"></include>
+       </methods>
+       </class>
+       <class name="TestCases.GmailHomePage"/>
+       <methods>
+       <include name="SentMailWithAttach"></include>
+       <include name="LogOut"></include>
+       </methods>
+    </classes>
+  </test>
+</suite>
